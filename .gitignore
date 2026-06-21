@@ -1,0 +1,9 @@
+.env
+env/
+sessions/
+__pycache__/
+*.pyc
+*.session
+*.session-journal
+CLAUDE.md
+.claude/

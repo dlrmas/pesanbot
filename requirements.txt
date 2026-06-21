@@ -1,0 +1,6 @@
+kurigram==2.2.23
+pymongo>=4.17.0
+python-dotenv>=1.1.0
+tzdata>=2025.2  # zona waktu IANA (wajib di Windows utk Asia/Jakarta)
+# Opsional (akselerasi MTProto, butuh compiler C di Windows):
+tgcrypto==1.2.5
