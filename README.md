@@ -62,10 +62,14 @@ Penerima bisa membalas **tanpa tahu siapa kamu** — jadi obrolan dua arah yang 
 # 1) Pasang dependensi
 pip3 install -r requirements.txt
 
-# 2) Konfigurasi
+# 2) Berjalan di latar belakang vps
+apt install screen -y # kalau belum install screen 
+screen -S pesanbot # nyalakan screen 
+
+# 3) Konfigurasi
 cp .env.example .env        # lalu isi (lihat tabel di bawah)
 
-# 3) Jalankan 
+# 4) Jalankan 
 python3 main.py
 ```
 
