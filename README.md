@@ -59,17 +59,21 @@ Penerima bisa membalas **tanpa tahu siapa kamu** — jadi obrolan dua arah yang 
 ## 🚀 Mulai Cepat
 
 ```bash
-# 1) Pasang dependensi
+# 1) git clone terlebih dahulu
+git clone https://github.com/dlrmas/pesanbot.git
+cd pesanbot
+
+# 2) Pasang dependensi
 pip3 install -r requirements.txt
 
-# 2) Berjalan di latar belakang vps
+# 3) Berjalan di latar belakang vps
 apt install screen -y # kalau belum install screen 
 screen -S pesanbot # nyalakan screen 
 
-# 3) Konfigurasi
+# 4) Konfigurasi
 cp .env.example .env        # lalu isi (lihat tabel di bawah)
 
-# 4) Jalankan 
+# 5) Jalankan 
 python3 main.py
 ```
 
